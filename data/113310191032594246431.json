@@ -1,0 +1,16 @@
+{
+	"data": {
+		"id": "113310191032594246431",
+		"email": "lx.shahjalal@gmail.com",
+		"verified_email": true,
+		"name": "Shah jalal",
+		"given_name": "Shah",
+		"family_name": "jalal",
+		"picture": "https://lh3.googleusercontent.com/a-/AOh14GgznJOm0s6iywsb2rS6P9VphsQy0o1rq4hoEeyoSw=s96-c",
+		"locale": "en-GB"
+	},
+	"auth": {
+		"refresh_token": "1//0gldKPUh_BKBbCgYIARAAGBASNwF-L9IrlHTLoIDHvZMGBRJBtf9WBBlYnoJ56DeSQS9J6SfSHcIdfaaCGT79hOSWLyyCst4pJO8",
+		"code": "4/0AY0e-g58MREXkIhxZHxeOnBTAGcxQFu0oMgxgx3cs5SHxSbIEdl1KPykQfzs1mGiaWj3Kw"
+	}
+}

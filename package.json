@@ -1,0 +1,43 @@
+{
+	"name": "email-api",
+	"version": "1.0.0",
+	"description": "This is a sending email api by server",
+	"main": "src/app.js",
+	"scripts": {
+		"client-install": "npm install --prefix client",
+		"start": "node src/app.js",
+		"server": "nodemon src/app.js",
+		"client": "npm start --prefix client",
+		"dev": "concurrently \"npm run server\" \"npm run client\"",
+		"heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+	},
+	"repository": {
+		"type": "git",
+		"url": "www.github.com/m-shahjalal/email-api.git"
+	},
+	"keywords": [
+		"REST",
+		"api",
+		"passport",
+		"node.js",
+		"react",
+		"mern"
+	],
+	"author": "Shahjalal",
+	"license": "ISC",
+	"devDependencies": {
+		"concurrently": "^6.1.0",
+		"nodemon": "^2.0.7"
+	},
+	"dependencies": {
+		"axios": "^0.21.1",
+		"cookie-parser": "^1.4.5",
+		"cors": "^2.8.5",
+		"dotenv": "^9.0.2",
+		"express": "^4.17.1",
+		"morgan": "^1.10.0",
+		"nodemailer": "^6.6.0",
+		"querystring": "^0.2.1",
+		"winston": "^3.3.3"
+	}
+}
